@@ -129,8 +129,7 @@ class ScoreboardManager
   {
     this.stopTimer();
 
-    if(this.count <1)
-    {
+
       var seconds = this.getTimeSeconds()
       var time = this.getDisplayTimer()
       var spm = this.getScorePerMin(score)
@@ -157,7 +156,7 @@ class ScoreboardManager
               break;
       }
         this.count = this.count + 1;
-    }
+    
 
   }
 
